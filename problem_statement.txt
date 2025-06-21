@@ -1,0 +1,132 @@
+
+Problem Statement
+
+Estimate Monthly Expenses Based on Lifestyle
+
+ML Algorithm: Linear Regression
+
+Domain: Personal Finance
+
+Problem Statement:
+
+Build a model to estimate a person's monthly expenses based on their lifestyle habits. Use a Google Form to gather
+
+Number of outings per month
+
+- Monthly shopping frequency
+
+- Mobile/data recharge cost
+
+- Food ordering frequency
+
+- Rent or hostel fee (if any)
+
+Use the data to predict total estimated expenses for the month using linear regression. Evaluate the model with MAE or RMSE.
+
+Instructions:
+
+1. Create a Google Form
+
+Objective:
+
+Design a Google Form based on your chosen problem statement to collect relevant data that can be used to build a dataset.
+
+1. Design the Google Form:
+
+- Use a clear title that reflects your problem statement.
+
+
+Add a short description explaining the purpose of the form (optional but recommended).
+
+2. Add Questions:
+
+- Start with a field to collect the Name of the respondent.
+
+- Do NOT include phone numbers, email addresses, or any other personal contact details
+
+- Include only the questions that are directly useful for building your dataset.
+
+- Use appropriate input types (e.g., multiple choice, dropdown, short answer, linear scale) based on the data you want to collect.
+
+3. Share the Form:
+
+Share the form only in the internship WhatsApp group.
+
+Ask your classmates to fill out the form honestly and completely.
+
+Reminder:
+
+Ensure your form is neat, relevant, and easy to understand. Your goal is to collect clean and useful data for your machine learning (ML) or data analysis project.
+
+2. Collect Dataset
+
+- Every student must fill out the forms for other teams.
+
+- Collect at least 40 responses.
+
+Download the responses as a CSV file.
+
+3. Data Preprocessing
+
+- Load the CSV into your code.
+
+- Clean the data:
+
+- Remove null values
+
+- Encode categorical variables
+
+- Normalise/scale if needed
+
+4. Model Building
+
+- Identify whether your problem is a classification or regression problem.
+
+- Choose a Suitable algorithm.
+
+- Train Your Model
+
+
+- Evaluate using metrics like :
+
+- Accuracy, Precision, Recall, F1 (for classification)
+
+- MAE, MSE, RMSE (for regression)
+
+5. Save Your Model
+
+- Save your model file based on the type:
+
+- pkl-Scikit-learn
+
+- h5-TensorFlow/Keras
+
+6. Make a Prediction
+
+- Take a sample input and show output using your saved model.
+
+- This could be a classification label or a numeric prediction.
+
+GitHub Submission
+
+Repository Format:
+
+- Create a GitHub repo named HACK_TEAM[Team Number]_PPS_KCET
+
+Example: HACK_TEAM5_PPS_KCFT
+
+- Upload the following files:
+
+- problem_statement.txt Copy your assigned problem
+
+- form_link.txt-Paste your Google Form link
+
+- dataset.csv-Exported Google Sheet
+
+- ml_code.ipynb or .py - Your main code
+
+- model.pkl or model.h5 - Saved model
+
+- README.md-Simple project explanation
+
+- output_screenshot.png-Prediction output
